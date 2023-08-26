@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------------------------- Main START---------------------------------- */
+.MoviesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 73vh;
+}
+h1 {
+    font-size: 20px;
+}
+.card  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field{
+    display: flex;
+    justify-content: center;
+}
+
+#Search:focus {
+    border-top-left-radius:30px;;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    font-size: 20px;
+    border: 1px solid red;
+    padding: 5px;
+
+}
+#Search {
+    font-size: 20px;
+    margin-top: 5px;
+    width: 400px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border: 1px solid red;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 5px;
+}
+.btn{
+    margin-top: 13px;
+    margin-left: 5px;
+}
+.progress {
+    margin-top: 200px;
+}
+/*-------------------------------Main End---------------------------------- */
+
+
+/* -------------------------------Footer----------------------  */
+.nav-wrapper {
+    background-color: rgb(220, 20, 93);
+}
+.right li {
+    margin-left: 50px;
+}
+
+.right  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    width: 50%;
+}
+.page-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100wh;
+    height: 60px;
+    background-color: rgb(220, 20, 93);
+}
+.brand-logo{
+    margin-left: 20px;
+}
+/* -------------------------------Footer End----------------------------- */
